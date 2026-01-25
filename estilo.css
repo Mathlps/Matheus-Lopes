@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3dcdc;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    margin-left: 28%;
+    margin-right: 28%;
+
+    background-color: #e3dcdc;
+
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-transform: uppercase;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #161f50;
+    font-weight: bolder;
+}
+
+
+
+.header-img {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    margin-top: 1%;
+    border-radius: 3%;
+    background-image: url(./header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-link {
+    display: flex;
+    /* align-items: flex-end; */
+    padding: 1rem;
+}
+
+.header-link li {
+    padding-left: 2rem;
+}
+
+.main {
+    display: flex;
+    gap: 1rem;
+}
+
+.first-container {
+
+    width: 50%;
+    /* height: auto; */
+    background-color: #9a9a9f;
+    padding: 15px;
+}
+
+.first-container p span {
+
+    font-size: 2rem;
+    font-weight: bolde;
+    color: #161f50;
+    text-transform: uppercase;
+}
+
+.first-container p {
+    font-size: 22px;
+
+}
+
+/* .sobre{
+    display: flex;
+}
+
+.sobre p{
+    display: flex;
+    padding-left: 5px;
+    justify-content: end;
+    align-items: end;
+} */
+
+.foto {
+    display: flex;
+    justify-self: center;
+    margin-top: 4%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-image: url(./WhatsApp\ Image\ 2025-11-09\ at\ 10.52.37.jpeg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.button button{
+    width: 150px;
+    height: 40px;
+    
+}
+
+.button button:hover{
+    background-color: #161f507d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* .foto img {
+    margin-top: 4%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+} */
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* height: 60vh; */
+    padding: 20px;
+}
+
+.second-container h1 {
+
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #161f50;
+    text-transform: uppercase;
+}
+
+.projeto-img {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem;
+
+     
+}
+
+.projeto-img:hover{
+    animation-name: moveInTop;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+}
+
+.projetos li {
+
+    padding: 15px 0px 20px 0px;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.projeto-img img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+
+
+.foto-link ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-link ul li {
+    display: inline;
+}
+
+.foto-link ul li a:hover {
+    color: #161f50;
+}
+
+
+.foto-link ul li a {
+
+    text-decoration: underline;
+    font-style: italic;
+    color: #000000;
+}
+
+.hard li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.hard li img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.hard h2 {
+    padding: 20px;
+     text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #161f50;
+    text-transform: uppercase;
+}
+/* .first-container{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background-color: #cb0a3a;
+    border-radius: 1rem;
+}
+
+.first-container h1{
+    align-self: center;
+    padding-top: 12rem;
+    color: #e8bb12;
+    font-size: 8rem;
+    text-transform: uppercase;
+} */
+/* .foto-final{
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    object-position: ;
+    
+    border-radius: 1rem;
+    border-radius: inherit;
+} */
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: auto; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contato {
+    margin: 30px;
+    display: flex;
+    gap: 3rem;
+}
+
+.contato img {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes moveInTop {
+    0% {
+        opacity: 1;
+        transform: translate(0);
+    }
+ 
+    100% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+}
