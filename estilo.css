@@ -45,7 +45,7 @@ header ul li {
     height: 20vh;
     margin-top: 1%;
     border-radius: 3%;
-    background-image: url(./header.jpg);
+    background-image: url(./img/header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@ header ul li {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background-image: url(./WhatsApp\ Image\ 2025-11-09\ at\ 10.52.37.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2025-11-09\ at\ 10.52.37.jpeg);
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
