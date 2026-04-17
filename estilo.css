@@ -292,3 +292,82 @@ footer {
     }
 
 }
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+  
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+
+}
+ .main{
+    display: block;
+  }
+
+  .first-container {
+
+    width: 100%;
+}
+
+  .second-container {
+    font-size: large;
+    width: 100%;
+}
+
+
+}
+
+/* Celulares (padrão) */
+@media (max-width: 768px) {
+  
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+
+}
+  .second-container {
+
+    font-size: 24px;
+    
+}
+
+.second-container h1{
+    font-size: 28px;
+}
+
+.projetos li{
+    font-size: 28px;
+}
+
+.foto-link ul li{
+    font-size: 24px;
+}
+
+.hard ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+.hard{
+    font-size: 20px;
+}
+}
+
+/* Laptops / telas menores */
+@media (max-width: 1200px) {
+  
+}
+
+/* Telas grandes */
+@media (min-width: 1201px) {
+  
+}
